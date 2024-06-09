@@ -2,7 +2,7 @@
 Current version: Schoolthing v7.6.0 | SCX-24w23a
 Docs last updated: 9th June 2024
 
-DISCLAIMER: code is extremely spaghetti.
+**DISCLAIMER: code is extremely spaghetti.**
 
 ## In this file:
 - Setup
@@ -11,7 +11,7 @@ DISCLAIMER: code is extremely spaghetti.
 
 ## Setup
 Setup will take a bit of time, mainly because I haven't updated the codebase in a while, but hopefully someone can update everything haha.
-1. Run `npm install --force`, the force tag is required because the version of React here is outdated. (Again, if anyone has the time to fix this, please submit a PR!!)
+1. Download this project and run `npm install --force`. The force tag is required because the version of React here is outdated. (Again, if anyone has the time to fix this, please submit a PR!!)
 
 2. Create a `.env` file in the root folder. Fill the file in with the empty values from the next section.
 
