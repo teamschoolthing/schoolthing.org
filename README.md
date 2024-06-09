@@ -2,6 +2,8 @@
 Current version: Schoolthing v7.6.0 | SCX-24w23a
 Docs last updated: 9th June 2024
 
+DISCLAIMER: code is extremely spaghetti.
+
 ## In this file:
 - Setup
 - .Env file
