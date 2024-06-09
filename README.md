@@ -10,13 +10,13 @@ Docs last updated: 9th June 2024
 - Current Features
 
 ## Setup
-Setup will take a bit of time, mainly because I haven't updated the codebase in a while, but hopefully someone can update everything haha.
+Setup will take a bit of time (30-45 mins), mainly because I haven't updated the codebase in a while, but hopefully someone can update everything haha.
 1. Download this project and run `npm install --force`. The force tag is required because the version of React here is outdated. (Again, if anyone has the time to fix this, please submit a PR!!)
 
 2. Create a `.env` file in the root folder. Fill the file in with the empty values from the next section.
 
 ### Service Setups
-I use 4 different services for tools on the web app. All these services are free/freemium. If you don't plan on modifying the codebase, these services are absolutely necessary. Otherwise feel free to skip the next three steps.
+I use 4 different services for tools on the web app. All these services are free/freemium. If you don't plan on modifying the codebase to use other services, these are absolutely necessary. Otherwise feel free to skip the next three steps.
 
 3.1. Create a Postgres server. I used [Neon](https://neon.tech), setup is super simple. After you're done setting it up, copy the Pooled connection URL and unpooled connection URL to your .env file.
 
