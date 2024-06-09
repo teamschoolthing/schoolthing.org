@@ -1,0 +1,165 @@
+@import 'variables.scss';
+.cont {
+  padding-right: 10px;
+  margin-right: -10%;
+}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: hidden;
+  z-index: 3;
+}
+
+.btnLink {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.icon {
+  margin-bottom: -5px;
+}
+
+.sidebar a {
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.content {
+  margin-left: 200px;
+  @media screen and (min-width: 700px) {
+    margin-right: 150px;
+  }
+  height: 1000px;
+  position: relative;
+}
+
+@media screen and (min-width: 430px) {
+  .sidebar a {
+    display: flex;
+  }
+}
+
+.twoRow {
+  display: none;
+}
+@media screen and (max-width: 430px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+  .twoRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (max-width: 430px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  .hideMobile {
+    display: none;
+  }
+  .mobile {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+  }
+  .buttons {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+  .gButton {
+    margin: auto;
+  }
+}
+
+.lHover {
+  text-decoration: none;
+  background: /* linear-gradient(
+      rgba(127, 82, 131, 1),
+      rgba(127, 82, 131, 1)
+    ) */linear-gradient(
+      to right,
+      #EDE9D5,
+      #EDE9D5,
+      #EDE9D5
+    ),
+    linear-gradient(to right, #54BAB9, #54BAB9, #54BAB9);
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.lHover:hover {
+  background-size: 0 3px, 100% 3px;
+}
+
+.gButton {
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+  background: linear-gradient(87deg, #03a9f4, #f441a5, #f441a5, #03a9f4);
+  background-size: 400%;
+  cursor: pointer;
+  animation: animate 60s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+
+/*  .gButton {
+      text-align: center;
+      color: #fff;
+      box-sizing: border-box;
+      background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+      background-size: 400%;
+      z-index: 1;
+      animation: animate 20s linear infinite;
+    }
+
+.gButton1 {
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  }
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+    100% {
+      background-position: 400%;
+    }
+  } */
