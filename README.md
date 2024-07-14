@@ -2,7 +2,7 @@
 Current version: Schoolthing v7.6.0 | SCX-24w23a
 Docs last updated: 9th June 2024
 
-**DISCLAIMER: code is extremely spaghetti. If you value your sanity, don't open** `main/index.js`
+**DISCLAIMER: code is extremely spaghetti. If you value your sanity, don't open** `pages/main/index.js`
 
 ## In this file:
 - Setup
