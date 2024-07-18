@@ -3,6 +3,7 @@ Current version: Schoolthing v7.6.0 | SCX-24w23a
 Docs last updated: 9th June 2024
 
 **DISCLAIMER: code is extremely spaghetti. If you value your sanity, don't open** `pages/main/index.js`
+Visit the official deployment at https://schoolthing.org or https://schoolthing.pidgon.com!
 
 ## In this file:
 - Setup
