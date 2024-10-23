@@ -1,18 +1,18 @@
 // Step 3.2
-export const ikPublicKey = 'public_/XJUT+Ii1QVhYAyPSBq4vquriao='
-export const ikPrivateKey = 'private_o5Wrg4wG9Du+cVjY4ZxoFIe2zhk='
-export const ikEndpoint = 'https://ik.imagekit.io/schoolthing/'
+export const ikPublicKey = ''
+export const ikPrivateKey = ''
+export const ikEndpoint = ''
 
 
 // Step 3.3
-export const editorAPIkey = "z18f1s620txdncgs1kdyw35azbtn1788t1ibe1ye3bb8cya4"
+export const editorAPIkey = ""
 
 // Step 3.4
-export const RollbarAccess = "c9976450563a4064b05b8c34f0fcd1f6"
-export const RollbarEnvironment = "testenv"
+export const RollbarAccess = ""
+export const RollbarEnvironment = ""
 
 // Step 4
-export const emailName = "mihirmaroju@icloud.com"
+export const emailName = "xxx@icloud.com"
 export const emailService = "iCloud"
 //Ignore these
 export const thisURL = "http://localhost:3000";
