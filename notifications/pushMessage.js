@@ -6,10 +6,9 @@ export default async function SchoolthingPushNotification(
   usePredefinedVapid = false
 ) {
   const vapidKeys = {
-    subject: "mailto:support@schoolthing.org",
-    publicKey:
-      "BFAVv6CP04Ajqcm1ycZOOAMA_w5WHdxFbjwOdbIFrFXVYEXp95h_DnZnvgkhkmqzY68HMRLwygzPhIqePNRApi4",
-    privateKey: "BmrqBTFKkeGen6JgmKI-v1Rbb_T6ruxuBVQD_EfKIGY",
+    subject: "mailto:xxx@yyy.com",
+    publicKey: "",
+    privateKey: "",
   };
   webpush.setVapidDetails(
     "mailto:support@schoolthing.org",
